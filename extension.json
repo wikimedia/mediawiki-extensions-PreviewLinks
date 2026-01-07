@@ -1,0 +1,91 @@
+{
+	"name": "PreviewLinks",
+	"author": [
+		"Miriam Schlindwein",
+		"[https://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PreviewLinks",
+	"descriptionmsg": "previewlinks-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42.0",
+		"extensions": {
+			"PageImages": "*"
+		}
+	},
+	"attributes": {
+		"PreviewLinks": {
+			"PreviewProcessors": {
+				"default": {
+					"class": "MediaWiki\\Extension\\PreviewLinks\\Processor\\DefaultPreviewProcessor",
+					"services": [ "WikiPageFactory" ]
+				}
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PreviewLinks\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\PreviewLinks\\Tests\\Unit\\": "tests/phpunit/unit/"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"PreviewLinks": [
+			"i18n"
+		]
+	},
+	"DefaultUserOptions": {
+		"previewlinks-show-preview": "1"
+	},
+	"ResourceModules": {
+		"ext.previewLinks": {
+			"packageFiles": [
+				"ext.previewLinks.init.js"
+			],
+			"dependencies": [
+				"oojs-ui-core"
+			],
+			"styles": [
+				"previewLinks.css"
+			],
+			"messages": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PreviewLinks/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "addPreviewLinks",
+		"GetPreferences": "addPreviewPreference"
+	},
+	"HookHandlers": {
+		"addPreviewLinks": {
+			"class": "MediaWiki\\Extension\\PreviewLinks\\Hook\\AddPreviewPopupLinks",
+			"services": [ "UserOptionsLookup" ]
+		},
+		"addPreviewPreference": {
+			"class": "MediaWiki\\Extension\\PreviewLinks\\Hook\\AddPreviewPreference"
+		}
+	},
+	"RestRoutes": [
+		{
+			"method": "GET",
+			"path": "/previewlinks/preview",
+			"class": "MediaWiki\\Extension\\PreviewLinks\\Rest\\PreviewPopupHandler",
+			"services": [
+				"TitleFactory",
+				"PreviewLinks.PreviewProcessorFactory",
+				"PageProps",
+				"RepoGroup",
+				"NamespaceInfo",
+				"PermissionManager"
+			]
+		}
+	],
+	"manifest_version": 2
+}

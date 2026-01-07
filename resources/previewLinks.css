@@ -1,0 +1,17 @@
+.ext-preview-links-popup-body.ext-preview-portrait-oriented {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.ext-preview-portrait-oriented .ext-preview-links-popup-content {
+	width: calc( 100% - 180px );
+}
+
+.ext-preview-links-page-popup .oo-ui-popupWidget-anchor {
+	left: 22px !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Necessary since max-height will be set to 0px for anchored bottom */
+.ext-preview-links-page-popup.oo-ui-popupWidget-anchored-bottom .oo-ui-clippableElement-clippable.oo-ui-popupWidget-body {
+	max-height: unset !important; /* stylelint-disable-line declaration-no-important */
+}
