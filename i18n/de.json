@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Miriam Schlindwein"
+		]
+	},
+	"previewlinks-desc": "Aktiviert eine Seitenvorschau für Seitenlinks, die in einem Popup-Fenster angezeigt werden",
+	"previewlinks-preference-show-preview-label": "Vorschau bei Links anzeigen",
+	"previewlinks-preference-show-preview-help": "Zeigt eine Vorschau der verlinkten Seite an, wenn du den Link mit der Maus berührst oder mit der Tastatur fokussierst",
+	"prefs-preview": "Inhaltsvorschau",
+	"previewlinks-empty-preview-label": "Es sind keine Vorschauinhalte verfügbar"
+}
