@@ -19,7 +19,6 @@ use Wikimedia\ParamValidator\ParamValidator;
 class PreviewPopupHandler extends SimpleHandler {
 
 	/**
-	 *
 	 * @param TitleFactory $titleFactory
 	 * @param PagePreviewProcessorFactory $pagePreviewProcessorFactory
 	 * @param PageProps $pageProps
@@ -107,7 +106,6 @@ class PreviewPopupHandler extends SimpleHandler {
 	}
 
 	/**
-	 *
 	 * @param IPagePreviewProcessor $previewProcessor
 	 * @param Title $pageTitle
 	 * @param User $user
@@ -172,7 +170,6 @@ class PreviewPopupHandler extends SimpleHandler {
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @return string
 	 */

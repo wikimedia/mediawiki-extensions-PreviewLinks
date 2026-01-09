@@ -10,14 +10,12 @@ use MediaWiki\User\User;
 interface IPagePreviewProcessor {
 
 	/**
-	 *
 	 * @param Title $title
 	 * @return bool
 	 */
 	public function applies( $title ): bool;
 
 	/**
-	 *
 	 * @param Title $title
 	 * @param User $user
 	 * @return File|null
@@ -25,7 +23,6 @@ interface IPagePreviewProcessor {
 	public function getPreviewFile( $title, $user ): File|null;
 
 	/**
-	 *
 	 * @param Title $title
 	 * @param User $user
 	 * @param int $limit

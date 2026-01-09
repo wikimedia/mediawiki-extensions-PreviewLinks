@@ -63,7 +63,7 @@
 		$( e.target ).attr( 'aria-describedby', id );
 
 		$overlay.append( popup.$element );
-		$( '#mw-teleport-target' ).append( $overlay ); // eslint-disable-line no-jquery/no-global-selector
+		$( '#mw-teleport-target' ).append( $overlay );
 		popup.toggle( true );
 		popup.$element.removeClass( 'oo-ui-element-hidden' );
 		popup.$element.attr( 'role', 'tooltip' );
@@ -82,7 +82,7 @@
 			} );
 		}
 
-		const bodyContent = $( '#bodyContent' ); // eslint-disable-line no-jquery/no-global-selector, no-jquery/variable-pattern
+		const bodyContent = $( '#bodyContent' ); // eslint-disable-line no-jquery/variable-pattern
 		// Check if there is enough space to the right
 		if ( e.clientX + popup.$element.width() >
 			bodyContent.offset().left + bodyContent.width() ) {
@@ -102,12 +102,12 @@
 			return;
 		}
 		const href = $( e.target ).attr( 'href' );
-		if ( !href || href.includes( 'action' ) || href.includes( 'diff' ) ) { // eslint-disable-line es-x/no-array-prototype-includes
+		if ( !href || href.includes( 'action' ) || href.includes( 'diff' ) ) {
 			return;
 		}
 
 		const classes = $( e.target ).attr( 'class' );
-		if ( classes && classes.includes( 'external' ) ) { // eslint-disable-line es-x/no-array-prototype-includes
+		if ( classes && classes.includes( 'external' ) ) {
 			return;
 		}
 
