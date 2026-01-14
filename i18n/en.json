@@ -7,6 +7,5 @@
 	"previewlinks-desc": "Enables a page preview on page links shown in a popup",
 	"previewlinks-preference-show-preview-label": "Show preview for links",
 	"previewlinks-preference-show-preview-help": "Shows a preview of the linked page when you hover over the link with the mouse or focus on it with the keyboard",
-	"prefs-preview": "Preview of contents",
 	"previewlinks-empty-preview-label": "No preview content available"
 }

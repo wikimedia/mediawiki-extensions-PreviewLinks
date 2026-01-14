@@ -7,6 +7,5 @@
 	"previewlinks-desc": "{{desc|name=PreviewLinks|url=https://www.mediawiki.org/wiki/Extension:PreviewLinks}}",
 	"previewlinks-preference-show-preview-label": "Label for user preference to enable page preview option",
 	"previewlinks-preference-show-preview-help": "Help message for user preference to describe how page preview is shown",
-	"prefs-preview": "Title of preview section on [[Special:Preferences]]",
 	"previewlinks-empty-preview-label": "Label shown if there is no content of page to preview"
 }
