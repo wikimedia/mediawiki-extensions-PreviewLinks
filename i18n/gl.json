@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"previewlinks-desc": "Activa unha vista previa das páxinas ligadas nunha xanela emerxente",
+	"previewlinks-preference-show-preview-label": "Mostrar a vista previa das ligazóns",
+	"previewlinks-preference-show-preview-help": "Mostra unha vista previa da páxina ligada ao pasar o rato sobre a ligazón ou ao centrarse nela co teclado.",
+	"previewlinks-empty-preview-label": "Non está dispoñible a vista previa do contido"
+}
