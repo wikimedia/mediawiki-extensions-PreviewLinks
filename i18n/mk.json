@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"previewlinks-desc": "Овозможува преглед на страниците од врски во отскочник",
+	"previewlinks-preference-show-preview-label": "Прикажувај преглед за врски",
+	"previewlinks-preference-show-preview-help": "Прикажува преглед на страницата на врската кога ќе отидете врз неа со глушецот или тастатурата",
+	"previewlinks-empty-preview-label": "Нема достапна содржина за преглед"
+}
