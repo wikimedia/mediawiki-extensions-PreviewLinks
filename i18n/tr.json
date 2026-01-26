@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"previewlinks-desc": "Açılır pencerede gösterilen sayfa bağlantılarında sayfa önizlemesi özelliğini etkinleştirir.",
+	"previewlinks-preference-show-preview-label": "Bağlantılar için önizlemeyi göster",
+	"previewlinks-preference-show-preview-help": "Fareyi bağlantının üzerine getirdiğinizde veya klavyeyle bağlantıya odaklandığınızda bağlantılı sayfanın önizlemesini gösterir.",
+	"previewlinks-empty-preview-label": "Önizleme içeriği mevcut değil."
+}
