@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"previewlinks-desc": "Activa un previsualisation del pagina sur ligamines a paginas, monstrate in un fenestra emergente",
+	"previewlinks-preference-show-preview-label": "Monstrar previsualisationes pro ligamines",
+	"previewlinks-preference-show-preview-help": "Monstrar un previsualisation del pagina ligate quando tu passa le mouse supra le ligamine o lo focalisa con le claviero",
+	"previewlinks-empty-preview-label": "Il non ha contento a previsualisar"
+}
