@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC"
+		]
+	},
+	"previewlinks-desc": "启用在弹出窗口里显示页面链接的预览",
+	"previewlinks-preference-show-preview-label": "显示链接预览",
+	"previewlinks-preference-show-preview-help": "当您将鼠标悬停在链接上或使用键盘聚焦链接时，会显示链接页面的预览",
+	"previewlinks-empty-preview-label": "无可用预览内容"
+}
