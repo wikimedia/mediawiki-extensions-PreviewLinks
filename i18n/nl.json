@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"previewlinks-desc": "Schakelt een paginavoorbeeld in voor paginakoppelingen die in een pop-upvenster worden weergegeven",
+	"previewlinks-preference-show-preview-label": "Voorbeeldweergave voor koppelingen",
+	"previewlinks-preference-show-preview-help": "Geeft een voorbeeld weer van de gekoppelde pagina wanneer u met de muis over de koppeling beweegt of deze selecteert met het toetsenbord",
+	"previewlinks-empty-preview-label": "Geen voorbeeldinhoud beschikbaar"
+}

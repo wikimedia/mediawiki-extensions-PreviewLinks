@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"previewlinks-desc": "Aktiverar en förhandsgranskning av sidlänkar som visas i ett popup-fönster",
+	"previewlinks-preference-show-preview-label": "Visa förhandsgranskning av länkar",
+	"previewlinks-preference-show-preview-help": "Visar en förhandsgranskning av den länkade sidan när du håller muspekaren över länken med musen eller fokuserar på den med tangentbordet",
+	"previewlinks-empty-preview-label": "Inget förhandsgranskningsinnehåll tillgängligt"
+}

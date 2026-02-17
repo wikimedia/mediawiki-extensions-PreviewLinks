@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"previewlinks-desc": "يُمكّن هذا الخيار من معاينة الصفحة على روابط الصفحات المعروضة في نافذة منبثقة.",
+	"previewlinks-preference-show-preview-label": "عرض معاينة للروابط",
+	"previewlinks-preference-show-preview-help": "يعرض معاينة للصفحة المرتبطة عند تحريك مؤشر الماوس فوق الرابط أو التركيز عليه باستخدام لوحة المفاتيح",
+	"previewlinks-empty-preview-label": "لا تتوفر معاينة للمحتوى"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"previewlinks-desc": "啟用顯示在彈出視窗裡頁面連結的頁面預覽",
+	"previewlinks-preference-show-preview-label": "顯示連結預覽",
+	"previewlinks-preference-show-preview-help": "當您將滑鼠懸停在連結上或使用鍵盤對焦連結時，會顯示連結頁面的預覽。",
+	"previewlinks-empty-preview-label": "無可用預覽內容"
+}
