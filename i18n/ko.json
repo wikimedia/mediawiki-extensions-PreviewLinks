@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"previewlinks-desc": "팝업에 표시된 문서 링크에서 문서 미리보기를 활성화합니다",
+	"previewlinks-preference-show-preview-label": "링크 미리보기 표시",
+	"previewlinks-preference-show-preview-help": "마우스 커서를 링크 위에 올리거나 키보드로 링크를 선택하면 연결된 문서의 미리보기가 표시됩니다.ㅐ",
+	"previewlinks-empty-preview-label": "사용 가능한 미리보기 콘텐츠 없음"
+}
