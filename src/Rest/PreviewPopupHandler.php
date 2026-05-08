@@ -11,8 +11,9 @@ use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Rest\Response;
 use MediaWiki\Rest\SimpleHandler;
 use MediaWiki\Title\NamespaceInfo;
+use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
-use MWException;
+use MWStake\MediaWiki\Component\Utils\UtilityFactory;
 use RepoGroup;
 use Wikimedia\ParamValidator\ParamValidator;
 
@@ -25,6 +26,8 @@ class PreviewPopupHandler extends SimpleHandler {
 	 * @param PageProps $pageProps
 	 * @param RepoGroup $repoGroup
 	 * @param NamespaceInfo $namespaceInfo
+	 * @param PermissionManager $permissionManager
+	 * @param UtilityFactory $utilityFactory
 	 */
 	public function __construct(
 		private readonly TitleFactory $titleFactory,
@@ -32,8 +35,9 @@ class PreviewPopupHandler extends SimpleHandler {
 		private readonly PageProps $pageProps,
 		private readonly RepoGroup $repoGroup,
 		private readonly NamespaceInfo $namespaceInfo,
-		private readonly PermissionManager $permissionManager
-		) {
+		private readonly PermissionManager $permissionManager,
+		private readonly UtilityFactory $utilityFactory
+	) {
 	}
 
 	/**
@@ -176,12 +180,8 @@ class PreviewPopupHandler extends SimpleHandler {
 	 * @param Title $title
 	 * @return string
 	 */
-	private function getDisplayTitle( $title ) {
-		$pageProps = $this->pageProps->getAllProperties( $title );
-		$pageProps = $pageProps[$title->getArticleID()] ?? [];
-		if ( !isset( $pageProps['displaytitle'] ) ) {
-			return $title->getText();
-		}
-		return $pageProps['displaytitle'];
+	private function getDisplayTitle( Title $title ): string {
+		$display = $this->utilityFactory->getDisplayTitleHelper()->getDisplayTitle( $title );
+		return $display || $title->getText();
 	}
 }
