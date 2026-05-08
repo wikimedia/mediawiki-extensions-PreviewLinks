@@ -30,6 +30,7 @@
 	"TestAutoloadNamespaces": {
 		"MediaWiki\\Extension\\PreviewLinks\\Tests\\Unit\\": "tests/phpunit/unit/"
 	},
+	"callback": "mwsInitComponents",
 	"ServiceWiringFiles": [
 		"includes/ServiceWiring.php"
 	],
@@ -83,7 +84,8 @@
 				"PageProps",
 				"RepoGroup",
 				"NamespaceInfo",
-				"PermissionManager"
+				"PermissionManager",
+				"MWStakeCommonUtilsFactory"
 			]
 		}
 	],
