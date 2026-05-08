@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"previewlinks-desc": "په بړبوکيزه کې ښودل شوې مخ تړونو کې د پاڼې مخکتنه چارنوي",
+	"previewlinks-preference-show-preview-label": "د تړونو مخکتنه ښودل",
+	"previewlinks-preference-show-preview-help": "کله چې تاسو د ماوس په وسيله په تړوني باندې ځړئ يا د ليکدړې سره په هغې تمرکز وکړئ؛ د تړوني‌شوي مخ مخکتنه ښيي",
+	"previewlinks-empty-preview-label": "د مخکتنې منځپانگه شتون نه لري"
+}
