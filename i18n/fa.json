@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohammad ebz"
+		]
+	},
+	"previewlinks-desc": "پیش‌نمایش صفحه را برای پیوندهای صفحه که به صورت پنجرهٔ بازشو نشان داده می‌شوند، فعال می‌کند.",
+	"previewlinks-preference-show-preview-label": "نمایش پیش‌نمایش برای پیوندها",
+	"previewlinks-preference-show-preview-help": "وقتی با ماوس روی پیوند می‌روید یا با صفحه کلید روی آن فوکوس می‌کنید، پیش‌نمایشی از صفحهٔ پیوندشده را نشان می‌دهد",
+	"previewlinks-empty-preview-label": "پیش‌نمایش محتوا موجود نیست"
+}
