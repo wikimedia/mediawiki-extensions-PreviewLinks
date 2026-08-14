@@ -79,7 +79,7 @@ class DefaultPreviewProcessor implements IPagePreviewProcessor {
 			}
 		}
 
-		if ( !$rawPreview ) {
+		if ( empty( $rawPreview ) ) {
 			return Message::newFromKey( 'previewlinks-empty-preview-label' );
 		}
 
