@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"previewlinks-desc": "Umožňuje zobraziť náhľad stránky pri odkazoch vo vyskakovacom okne",
+	"previewlinks-preference-show-preview-label": "Zobrazovať náhľad pri odkazoch",
+	"previewlinks-preference-show-preview-help": "Zobrazí náhľad odkazovanej stránky, keď na odkaz ukážete myšou alebo naň prejdete klávesnicou",
+	"previewlinks-empty-preview-label": "Nie je dostupný žiadny obsah na náhľad"
+}
