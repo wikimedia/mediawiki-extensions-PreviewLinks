@@ -6,10 +6,10 @@ use MediaWiki\Content\TextContent;
 use MediaWiki\Extension\PreviewLinks\IPagePreviewProcessor;
 use MediaWiki\FileRepo\File\File;
 use MediaWiki\Language\RawMessage;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Registration\ExtensionRegistry;
-use PageImages\PageImages;
 
 class DefaultPreviewProcessor implements IPagePreviewProcessor {
 
@@ -35,7 +35,9 @@ class DefaultPreviewProcessor implements IPagePreviewProcessor {
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'PageImages' ) ) {
 			return null;
 		}
-		$pageImage = PageImages::getPageImage( $title );
+		$pageImage = MediaWikiServices::getInstance()
+			->getService( 'PageImages.PageImages' )
+			->getImage( $title );
 		if ( !$pageImage ) {
 			return null;
 		}
