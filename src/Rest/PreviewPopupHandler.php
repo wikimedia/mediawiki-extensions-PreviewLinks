@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\PreviewLinks\Rest;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\PreviewLinks\IPagePreviewProcessor;
 use MediaWiki\Extension\PreviewLinks\PagePreviewProcessorFactory;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Message\Message;
 use MediaWiki\Page\PageProps;
 use MediaWiki\Permissions\PermissionManager;
@@ -14,7 +15,6 @@ use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MWStake\MediaWiki\Component\Utils\UtilityFactory;
-use RepoGroup;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class PreviewPopupHandler extends SimpleHandler {
