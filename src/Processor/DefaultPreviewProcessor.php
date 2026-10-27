@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\PreviewLinks\Processor;
 
-use File;
 use MediaWiki\Content\TextContent;
 use MediaWiki\Extension\PreviewLinks\IPagePreviewProcessor;
+use MediaWiki\FileRepo\File\File;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\Message\Message;
 use MediaWiki\Page\WikiPageFactory;
