@@ -5,11 +5,11 @@ namespace MediaWiki\Extension\PreviewLinks\Tests\Unit;
 use MediaWiki\Content\TextContent;
 use MediaWiki\Extension\PreviewLinks\Processor\DefaultPreviewProcessor;
 use MediaWiki\Language\RawMessage;
+use MediaWiki\Page\WikiPage;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWikiUnitTestCase;
-use WikiPage;
 
 class DefaultPreviewProcessorTest extends MediaWikiUnitTestCase {
 
