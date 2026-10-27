@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\PreviewLinks;
 
-use File;
+use MediaWiki\FileRepo\File\File;
 use MediaWiki\Message\Message;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
